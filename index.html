@@ -6,6 +6,9 @@
  <link rel="stylesheet" type="text/css" href="style.css">
  <script src="pika.js"></script>
  <link href="pika.js" rel="stylesheet" type="text/css" media="all" />
+  <link rel='stylesheet' href='style.css'/> 
+<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+	<script src='jquery.js'></script>
 </head>
 <body>
 <div id="bg"></div>
@@ -119,6 +122,47 @@ crypt_base_cur_0 = "Bitcoin (BTC)";crypt_target_cur_0 = "US Dollar (USD)";crypt_
 crypt_calc_border_width = 10;crypt_calc_border_color = "#2EADA4";crypt_calc_font_color = "#F500ED";</script><script type="text/javascript" src="https://www.cryptonator.com/ui/js/widget/calc_widget.js"></script>
 </center>
 </br></br>
+
+ <script> 
+            var click = 0;
+            function learnmore() {
+              alert("Welcome to the duplicated version of Nyan Cat!");
+              alert("You can move the lil' poptart with the arrow keys!");
+              alert("Thank you for playing!");
+              alert("Yazid - Creator of This Project");
+            }
+            function Change() {
+           click++;
+              if (click === 1) {$('#level1').fadeOut('fast');
+              $('#level2').fadeIn('fast');
+          } if (click === 2) {
+$('#level2').fadeOut('fast');      
+          $('#level3').fadeIn('fast');
+          }             
+            
+            if (click === 3) {
+      $('#level3').fadeOut('fast');
+              $('#level4').fadeIn('fast');
+            }
+              if (click === 4) {
+                $('#level4').fadeOut('fast');
+                $('#level1').fadeIn('fast');
+    click = 0;
+              }
+            
+            }
+            </script>
+          <img id="nyancat" src="http://files.gamebanana.com/img/ico/sprays/_594-.gif"/>
+         <!-- <img id="level1" src="http://mycriticalapproachtotechnologyandsociety.files.wordpress.com/2007/02/cloudsscroll.gif"/>
+             <img id="level2" src="http://junkerhq.net/xrgb/images/f/f5/Scroll.gif"/>
+          <img id="level3" src="http://i.stack.imgur.com/orvwj.gif"/>
+          <img id="level4" src="http://media.giphy.com/media/p2tZwsSzh924o/giphy.gif"/>
+          <img id="level5" src=""/>!-->
+          
+          <!-- Button -->
+           <INPUT TYPE="image" id="learn" onclick="learnmore()" SRC="http://ih.constantcontact.com/fs100/1104169690388/img/424.gif?a=1112111095472">
+          <button id="change" onclick="Change()">  </button>
+		  </br></br>
 </body>
 
 </html>
