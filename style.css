@@ -4,6 +4,11 @@
   box-sizing: border-box;
   transform-style: preserve-3d;
 }
+body
+{
+	background-color: orange;
+	background: radial-gradient(ellipse at center, rgba(244, 241, 230, 1) 0%, rgba(232, 248, 239, 1) 100%);
+}
 p
 {
 	 font-family: Comic Sans MS; 
